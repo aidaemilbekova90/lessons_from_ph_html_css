@@ -1,0 +1,25 @@
+ 
+  table, th, td {
+          border: 1px solid rgb(31, 143, 163);
+          border-collapse:collapse;
+         
+         
+        }
+    
+    th{
+            text-align: center;
+            width: 150px;
+            height: 50px;
+            table-layout: fixed;
+            font-weight: 200;
+            background-color: 	#F5F5F5;
+            font-size: 18px;
+            color: rgb(56, 52, 52);
+        
+
+         }
+
+         tr{
+           text-align: center;
+           color:rgb(56, 56, 56);
+         }
