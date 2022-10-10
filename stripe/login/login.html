@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <h1 class="title">Sign in to your account</h1>
+      <br /><br />
+      <label for="useremail">Email</label> <br /><br />
+      <input
+        type="email"
+        name="useremail"
+        id="useremail"
+        placeholder="sarievaibek@gmail.com"
+      />
+      <!-- <br /><br /> -->
+      <div class="password">
+        <div class="link__label">
+          <label for="userpassword">Password</label>
+          <a href="../reset/reset.html" class="link__blue">forgot your password</a>
+        </div>
+
+       
+        <input type="password" id="userpassword" name="userpassword" />
+      </div>
+
+      <div class="checkbox">
+        <input
+          type="checkbox"
+          value="yes"
+          name="receivenotification"
+          id="yes"
+        />
+        <label for="yes"> Stay signed in for a week </label>
+      </div>
+   
+
+      <div>
+        <button type="submit" class="btn">
+          <a href="https://stripe.com/" class="link">Continue</a>
+        </button>
+      </div>
+       <p class="signin">
+        <a href="https://dashboard.stripe.com/login">Use single sign on(SSO) instead</a>
+       </p>
+      <div>
+        <p>
+          Don't have an account
+          <a href="../regisration/registration.html" >Sign up</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

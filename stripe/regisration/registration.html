@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+  </head>
+  <body>
+    <div class="wrapper">
+    <form action="#">
+      <h1 class="title">Create your Stripe account</h1>
+      <label for="useremail">Email</label>
+      <br /><br />
+      <input
+        type="email"
+        id="useremail"
+        name="useremail"
+        placeholder="sarievaibek@gmail.com"
+      />
+      <br />
+      <br />
+
+      <label for="fullname">Full name</label>
+      <br />
+      <br />
+
+      <input type="text" name="fullname" id="fullname" name="fullname" />
+      <br /><br />
+
+      <label for="country">Counrty</label>
+      <br /><br />
+      <select name="" id="country">
+        <option value="country">United States</option>
+        <option value="country"> Kyrgyzstan</option>
+        <option value="country">Russia</option>
+        <option value="country">Germany</option>
+      </select>
+
+      
+      <br /><br />
+      <label for="password">Password</label>
+      <br /><br />
+      <input type="password" name="password" id="password" /><br /><br />
+
+      <input type="checkbox" value="yes" name="receivenotification"  id="yes"/>
+      <label for="yes">
+        Get emails from Stripe about product updates, industry news, and <br />
+        events. If you change your mind, you can unsubscribe at any time.
+         <br />
+        <a href="https://stripe.com/privacy"> Privacy Policy</a>
+      </label>
+      <div>
+        <button  type="submit" class="btn">
+          <a href="https://stripe.com/">Create an account</a>
+        </button>
+      </div>
+
+      <div class="signin">
+        
+        Have an account?
+        <a class="link" href="../login/login.html"> Sign in</a>
+       
+      </div>
+    </form>
+  </div>
+    
+  </body>
+</html>
